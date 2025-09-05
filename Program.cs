@@ -12,6 +12,7 @@
             Console.WriteLine("Hello, World!");
 
             //1
+
             /*a*/
             Console.WriteLine($"My name is {firstName} and my favorite movie is {favMovie}.".ToLower());
 
@@ -31,6 +32,7 @@
 
             //2
             Console.WriteLine(favQuote);
+
             /*a*/
             favQuote = favQuote.ToLower();
 
@@ -41,7 +43,7 @@
             favQuote = favQuote.Replace("o", "");
             favQuote = favQuote.Replace("u", "");
             Console.WriteLine(favQuote);
-
+            
             //3
 
             /*
